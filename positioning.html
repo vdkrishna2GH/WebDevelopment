@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Positioning in HTML</title>
+        <style>
+            div{
+                right:30px;
+                border: 3px solid #73ad21;
+            }
+            div.absolute{
+                position:absolute;
+                left: 50px;
+                border:3px solid blue;
+            }
+            div.relative{
+                position: relative;
+                left: 100px;
+                border:3px solid #de0e1f
+            }
+            div.fixed{
+                position:fixed;
+                top:0;
+                right: 20px;
+                width:300px;
+                border: 2px solid brown;
+
+            }
+            div.sticky{
+                position:sticky;
+                top:2px;
+                left: 20px;
+                width: 100px;
+                border: 3px solid #73ad34;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Positioning</h2>
+        <div> Division with no Positioning</div><br>
+        <div class="sticky">Division with sticky position property.</div><br><br>
+
+        <div class="relative">This division element has position relative.</div><br><br>
+        <div class="absolute">Absolute class division.</div><br><br><br>
+    
+        <div class="fixed">Division with fixed position property</div><br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+
+    </body>
+</html>
